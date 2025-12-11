@@ -34,4 +34,10 @@ Dataset: https://www.kaggle.com/datasets/alessandrolobello the-ultimate-film-sta
 
 Put an image of your UML diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file is one work, otherwise it might not get properly displayed on this README
 
-![UML Diagram for my project](nammeOfImageFileHere.png)
+![UML Diagram for my project](<img width="262" height="227" alt="Screenshot 2025-12-10 7 42 14 PM" src="https://github.com/user-attachments/assets/046940b1-6ade-437a-8616-3feef3861e57" />.png)
+
+## Description 
+
+Write a description of your project here. In your desription, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project
+
+My user story was to make a list so I can find movies and share the list with friends, using data found form kaggle I was able to make code that traverses through the data finding specific pieces of it and turning it into a toString() where it prints out the title, genre, director and the rating, all of these pieces of data were turned into arrays full of information and I used FileReader methods to analyze them. This dataset was essential because it gives the most necesarry pieces of information about movies you'd want to watch including how well or terribly they were rated. The user will interact by choosing how they want to seracmh through the data, by title, by genre, or by director. Next, they will input the name of a movie, genre, or director and it will print out movies based on what they inputted. they can keep searching if they'd like or just end the program from there.
