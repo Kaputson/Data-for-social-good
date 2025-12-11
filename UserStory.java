@@ -15,7 +15,9 @@ public class UserStory {
         this.movieRatings = FileReader.toDoubleArray("MovieRating.txt");
     }
 
-    // Goes through Title.txt and finds movies with that word in it's title
+    /* 
+    Goes through Title.txt and finds movies with that word in it's title
+    */
     public void findMovieByTitle() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a movie title: ");
@@ -34,13 +36,17 @@ public class UserStory {
                 found = true;
             }
         }
-      // prints it when there's no movies with that name
+      /*
+      prints it when there's no movies with that name
+      */
         if (!found) {
             System.out.println("No movies found with that title.\n");
         }
     }
 
-    //Searches Genre.txt for the genre inputted
+    /* 
+    Searches Genre.txt for the genre inputted
+    */
     public void findMovieByGenre() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a genre: ");
@@ -65,7 +71,9 @@ public class UserStory {
         }
     }
 
-    //Searches Director.txt for the Director inputted
+    /* 
+    Searches Director.txt for the Director inputted
+    */
     public void findMovieByDirector() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a director's name: ");
@@ -90,7 +98,9 @@ public class UserStory {
         }
     }
 
-    //asks the user if they want to continue searching
+    /*
+    asks the user if they want to continue searching
+    */
     public boolean promptToContinue() {
         Scanner input = new Scanner(System.in);
         System.out.print("Search again? (y/n): ");
@@ -99,7 +109,9 @@ public class UserStory {
     }
 
     
-  //Scanner that sends you through the other methods based on what you pick, Ex: findMovieyDirector
+  /*
+  Scanner that sends you through the other methods based on what you pick, Ex: findMovieyDirector
+  */
 public void searchMenu() {
     Scanner input = new Scanner(System.in);
     boolean searching = true;

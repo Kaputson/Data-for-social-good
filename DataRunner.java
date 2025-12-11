@@ -4,7 +4,7 @@ public class DataRunner {
     public static void main(String[] args) {
            
       UserStory app = new UserStory();
-      //uses searchMenu method to start the prompter
+      // has the initiated object run searchMenu() starting the program
         app.searchMenu();
       
     }
