@@ -1,0 +1,22 @@
+Who Helped Me:
+- Mr. Aiello
+What I asked:
+- How could I start my code? What I should add to toString()?
+What response I recieved (sumarize):
+- Ideas of how I could start, a best rated movie method, etc.
+- print the  name (Ex: "Director: ") and the data (Ex: James Cameron)
+
+Who Helped Me:
+- Joseph Granjera
+What I asked: 
+- How to I make code to traverse through datasets ?
+What response I recieved (sumarize):
+- Use the 1D arrays and use this format: for (int i = 0; i < ArrayName.length; i++)
+
+Who Helped Me:
+- ChatGpt
+What I asked:
+- Could you debug my code?
+What response I recieved (sumarize):
+- Brackets are not in the right spot or there aren't a sufficient amount 
+- create an if not found possibilty for the "for" statements
